@@ -1,0 +1,35 @@
+Bibliotheken:
+
+ - datetime
+ - json
+ - tkinter
+
+Klassen:
+
+  Fach:
+    - to_dict: Wandelt die Daten von der Klasse Fach in ein Dictionary um
+
+  Semester:
+    - fach_hinzufuegen: Fügt ein Fach zum Semester hinzu
+    - to_dict: Wandelt die Daten von der Klasse Semester in ein Dictionary um
+
+  Student:
+
+  AngelegterStudent:
+    - semester_hinzufuegen: Fügt ein Semester hinzu
+    - to_dict: Wandelt die Daten von der Klasse AngelegterStudent in ein Dictionary um
+
+  Datenmanager:
+    - loadData: Lädt Benutzerdaten aus einer JSON-Datei
+    - saveData: Speichert Benutzerdaten in einer JSON-Datei
+
+  Interface:
+    - showMenu: Zeigt das Hauptmenü der Anwendung  (erstellen eines neuen Fachs, Anzeige des Dashboards, Beenden des Programms)
+    - neues_fach_anlegen:  Zeigt ein Fenster mit der Maske zur Anlage eines neuen Fachs
+    - speichern_fach: Speichert ein Fach und aktualisiert die Benutzerdaten
+    - dashboard_anzeigen: Zeigt das Dashboard mit einer Übersicht der Semester und den Details der zugehörigen Fächer
+    - zeige_semester_details: Zeigt die Details der Fächer eines ausgewählten Semesters
+    - berechne_ziele: Berechnet und zeigt den Fortschritt bezüglich ECTS- und Notenziel
+    - createUser: Zeigt ein Fenster mit der MAske zur Benutzeranlage
+    - speichern_user: Speichert die Informationen des neuen Benutzers und öffnet das Hauptmenü an
+  
